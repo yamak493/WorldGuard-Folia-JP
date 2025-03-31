@@ -27,9 +27,9 @@ jobs:
 
     - name: スクリプト内の変数を変更
       run: |
-        sed -i 's|REPO_DIR="\$SCRIPT_DIR/WorldGuard"|REPO_DIR="\$SCRIPT_DIR/WorldGuard-JP"|' start.sh
-        sed -i 's|REPO_URL="https://github.com/EngineHub/WorldGuard"|REPO_URL="https://github.com/yamak493/WorldGuard-JP"|' start.sh
-        sed -i 's|BRANCH_GIT="version/7.0.x"|BRANCH_GIT="version/7.0.x"|' start.sh
+        sed -i 's|REPO_DIR="\$SCRIPT_DIR/WorldGuard"|REPO_DIR="\$SCRIPT_DIR/WorldGuard-JP"|' script.sh
+        sed -i 's|REPO_URL="https://github.com/EngineHub/WorldGuard"|REPO_URL="https://github.com/yamak493/WorldGuard-JP"|' script.sh
+        sed -i 's|BRANCH_GIT="version/7.0.x"|BRANCH_GIT="version/7.0.x"|' script.sh
 
     - name: Grant execute permission to script
       run: bash -c "chmod +x script.sh"
