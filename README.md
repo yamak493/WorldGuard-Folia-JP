@@ -9,7 +9,9 @@ https://github.com/Euphillya/WorldGuard-Folia
 https://github.com/yamak493/WorldGuard-JP
 
 これら2つのリポジトリを統合させてGitHub Actions上でビルドするために作成しました。
-[ダウンロード](https://github.com/yamak493/WorldGuard-Folia-JP/actions)
+
+## ダウンロード
+[ここから](https://github.com/yamak493/WorldGuard-Folia-JP/actions)
 
 ## 仕組み
 WorldGuard-Foliaをインポートし、WorldGuard-JPをサブモジュールとしてコピーし、WorldGuard-Foliaのパッチを開始する。
