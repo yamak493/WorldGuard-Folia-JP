@@ -19,8 +19,11 @@ jobs:
         java-version: 21
         distribution: 'temurin'
 
-    - name: WorldGuard-FoliaをGit Clone
-      run: git clone https://github.com/Euphillya/WorldGuard-Folia.git .
+    - name: Checkout repository
+      uses: actions/checkout@v4
+      with:
+        repository: Euphillya/WorldGuard-Folia
+        ref: patch/version/7.0.x
 
     - name: WorldGuard-JPをGit Clone
       run: git clone https://github.com/yamak493/WorldGuard-JP.git ./WorldGuard
